@@ -1,6 +1,6 @@
 // imports
 import { Metadata } from 'next'
-import font from '@/styles/fonts/Fonts'
+import font from '@/styles/fonts/fonts'
 
 // styles
 import '@/styles/globals.scss'
