@@ -1,0 +1,46 @@
+@import '/app/styles/variables';
+.mainMenu {
+  background-color: $dark-soft;
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  .header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    .section {
+      .navbar {
+        display: flex;
+        .navList {
+          display: flex;
+          justify-content: space-between;
+          list-style-type: none;
+          .navItem {
+            margin-left: 1em;
+            .link {
+              text-decoration: none;
+              color: $dark;
+            }
+          }
+        }
+      }
+
+      .CTA {
+        padding: 0.5em 1.5em;
+        background-color: transparent;
+        border: 2px solid $dark;
+        transition: all 0.75s;
+        border-radius: 2px;
+        font-weight: 700;
+        &:hover {
+          background-color: $dark-soft;
+          box-shadow: inset -1px -2px 0px 0px;
+        }
+      }
+    }
+  }
+}
